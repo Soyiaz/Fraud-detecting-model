@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Data
+data/raw/*
+data/processed/*
+models/*
+!data/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep 
+
+# Logs and outputs
+*.log
+*.out
+*.csv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook temporary files
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+
+# Python environment files
+*.env
+.env.*
+
+# MLflow artifacts or other tracking outputs (if used)
+mlruns/
